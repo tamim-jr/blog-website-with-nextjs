@@ -48,10 +48,11 @@
 @media screen and (max-width: 768px) {
     .logo{
         font-size: 20px;
+        margin-right: 20px;
     }
-    .link{
+    /* .link{
         display: none;
-    }
+    } */
 }
 @media screen and (max-width: 640px) {
     .logo{
