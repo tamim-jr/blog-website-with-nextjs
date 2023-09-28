@@ -6,11 +6,11 @@ const Featured = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        <b>Hey, Your Blog is here!</b> Discover my stories and creative ideas.
+        <b>Hey, lama dev here!</b> Discover my stories and creative ideas.
       </h1>
       <div className={styles.post}>
         <div className={styles.imgContainer}>
-          <Image src="/p1.jpeg" alt="" height={500} width={550} className={styles.image} />
+          <Image src="/p1.jpeg" alt="" fill className={styles.image} />
         </div>
         <div className={styles.textContainer}>
           <h1 className={styles.postTitle}>Lorem ipsum dolor sit amet alim consectetur adipisicing elit.</h1>
